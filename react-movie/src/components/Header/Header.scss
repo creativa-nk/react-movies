@@ -15,21 +15,24 @@ header{
     color:white;
     display:flex;
     padding:0 0.8em;
-    span{
-        cursor:pointer;
-        padding:0.8em;
-        margin:0 0.9em;
-        background: #1f1f1f;
-        cursor: pointer;
-        transition:all 0.4s; /* para que el cambio sea suave*/
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    } 
+    a{
+        all:unset;   // para quitar los estilos que vienen por defecto
 
-    span:hover{
+        cursor:pointer;
+            padding:0.8em;
+            margin:0 0.9em;
+            background: #1f1f1f;
+            cursor: pointer;
+            transition:all 0.4s; /* para que el cambio sea suave*/
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    a:hover{
         background:rgba(228, 228, 228, 0.493) ;
         color:rgb(7, 7, 7);
         border-radius: 5px;
     }
+    
 }
 
 
