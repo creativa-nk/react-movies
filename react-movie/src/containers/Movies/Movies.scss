@@ -1,0 +1,16 @@
+.movies{
+    /* background: rgb(0, 130, 65); */ 
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 1rem;
+    grid-row-gap: 100px;
+    padding: 1em;
+    margin-top: 2rem;
+    /* width: 70vw;
+    height: 70vh; */
+    width: 93%;
+    height: 90%;
+    transition:all 2s;
+    margin: 5rem auto;
+  
+}

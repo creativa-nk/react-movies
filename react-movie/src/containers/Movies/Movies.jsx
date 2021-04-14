@@ -1,5 +1,7 @@
 import React, {useEffect, useState } from 'react';
+import Movie from '../../components/Movie/Movie.jsx'
 import axios from 'axios';
+import '../Movies/Movies.scss'
 
 const Movies = props =>{
     const movieType = props.match.params.movieType;
@@ -11,8 +13,7 @@ const Movies = props =>{
     }, [])
 
     return <div className='movies'>
-        Tipo de peliculas: {movieType}
-        {movies?.map(movie=>movie.title)}
+        {movies?.map(movie=><Movie movie={movie}/>)}
     </div>
 }
 export default Movies;
