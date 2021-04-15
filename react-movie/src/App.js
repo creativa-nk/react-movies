@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './components/Header/Header.jsx';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Movies from './containers/Movies/Movies.jsx'
+import Movies from './containers/Movies/Movies.jsx';
+import '../src/App.css'
 
 
 function App() {
