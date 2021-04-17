@@ -21,6 +21,8 @@ const Header = props => {
         <NavLink to='/top_rated'>
             <span className='top_rated'onclick="getComingMovies();backgroundAmarillo()">Más votadas</span>
         </NavLink>
+        <input className="search" type='text' placeholder='Buscar...'/>
+            
         
     </header>
     )
