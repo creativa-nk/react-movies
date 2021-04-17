@@ -6,18 +6,17 @@
 }
 
  body{
-  /*  background-image:url(/src/img/inicio2.jpg) ; */
-    background-size: cover; /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-color: rgb(19, 35, 105);
+    
 } 
 
 header{
-    background: #1f1f1f;
-    
+    background: $darkest;
     display:flex;
     padding:0 0.8em;
 
     span{
-        color:white;
+        color:$light;
     }
     a{
         all:unset;   // para quitar los estilos que vienen por defecto
