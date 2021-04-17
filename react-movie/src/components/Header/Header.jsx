@@ -1,6 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './Header.scss'
+import './Header.scss';
+import '../../img/multiAmarillo.jpg'
+
+/* const BackgroundAmarillo = () => {
+    document.body.style.backgroundImage = 'url(./img/multiAmarillo.jpg)';
+  }  */
+
 
 const Header = props => {
     return(<header>
@@ -9,7 +15,7 @@ const Header = props => {
         </NavLink>
 
         <NavLink to='/upcoming'>
-            <span className='upcoming'onclick="getComingMovies();backgroundAmarillo()">Proximos estrenos</span>
+            <span className='upcoming'onClick="getPopularMovies();backgroundAmarillo()">Proximos estrenos</span>
         </NavLink>
         
         <NavLink to='/top_rated'>
