@@ -20,7 +20,7 @@
             padding: 0.1em;
             font-size: 1em;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-       /*      overflow: hidden; */
+            overflow: hidden;
             border-radius: 5px;
             text-align: center; 
         } 
@@ -60,14 +60,20 @@
     bottom:0;
     left:0;
     right: 0;
-    padding: 1rem;
+    padding: 0.5rem;
     transform:translateY(100%);
     transition: transform 1s ease-in-out; 
     overflow: auto; 
-    max-height: 100%;  
+    max-height: 100%;
+    font-size: 10px;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
      h4{
-         margin-top: 1.5em;
+         margin-top: 1em;
      }
+}
+
+.movie:hover{
+    transform: scale(1.25);
 }
 
 .movie:hover .moreDetails{
