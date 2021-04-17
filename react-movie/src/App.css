@@ -2,8 +2,3 @@
     margin: 0;
     box-sizing: border-box
 }
-
- body{
-  /*   background-image:url("./img/inicio2.jpg") ; */
-    background-size: cover; /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
-} 
