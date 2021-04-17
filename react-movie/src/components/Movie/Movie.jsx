@@ -13,6 +13,7 @@ const Movie = ({movie}) =>{
                          <p>{movie.vote_average}</p>
                      </div>
             </div>
+            
         </div>    
 )};
     
