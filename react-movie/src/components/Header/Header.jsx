@@ -9,22 +9,23 @@ import '../../img/multiAmarillo.jpg'
 
 
 const Header = props => {
-    return(<header>
-        <NavLink to='/popular'>
-            <span className='populares' onclick="getPopularMovies();backgroundAzul()">Populares</span>
-        </NavLink>
+    return(
+        <header>
+            <div>
+                <NavLink to='/popular'>
+                     <span className='populares'>Populares</span>
+                </NavLink>
 
-        <NavLink to='/upcoming'>
-            <span className='upcoming'onClick="getPopularMovies();backgroundAmarillo()">Proximos estrenos</span>
-        </NavLink>
+                <NavLink to='/upcoming'>
+                      <span className='upcoming'>Proximos estrenos</span>
+                </NavLink>
         
-        <NavLink to='/top_rated'>
-            <span className='top_rated'onclick="getComingMovies();backgroundAmarillo()">Más votadas</span>
-        </NavLink>
-        <input className="search" type='text' placeholder='Buscar...'/>
-            
-        
-    </header>
+                <NavLink to='/top_rated'>
+                       <span className='top_rated'>Más votadas</span>
+                </NavLink>
+            </div>
+            <input className="search" type='text' placeholder='Buscar...'/>     
+        </header>
     )
 }
 export default Header;
