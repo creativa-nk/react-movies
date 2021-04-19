@@ -1,12 +1,12 @@
 .movie{
     /* margin: 10px; */ 
-    padding: 10px;
-    background:rgb(177, 177, 177);
+    /* padding: 8px; */
+    background:rgb(155, 155, 155);
     box-shadow: rgba(0, 0, 0, 0.774) 10px 5px 5px ; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 8vw;
+    width: 8.4vw;
     height: auto;
     border-radius: 2%;
     border: 1px solid rgba(114, 114, 114, 0.63);
@@ -20,33 +20,38 @@
         background: rgb(226, 226, 226);
         border-radius: 4px;
     }
-
     ::-webkit-scrollbar-thumb:hover {
         background: #b3b3b3;
     }
-        h2{
-            background: rgb(235, 235, 235);
-            width:7vw;
-            height: 4.2vh;
-            padding: 0.1em;
-            font-size: 1em;
+        .movieTitle{
+           /*  background: rgb(95, 95, 95);  */
+            display: flex;
+            align-items: center;
+            color:rgb(240, 240, 240);
+            max-width: 100%;
+            height: 4vh;
+            padding: 1.2em;
+            font-size: 1.2em;
+            font-weight: bold;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            text-shadow:1px 1px 1px  rgba(0,0,0,0.1);
             overflow: hidden;
             border-radius: 5px;
             text-align: center; 
+            word-wrap: break-word; 
+        
         } 
         
         img{
-            margin-top: 1em;
-            width: 7vw;
-            height: 21vh;
+            margin-top: 0.2em;
+            width: 8.1vw;
+            height: 26vh;
             border-radius: 5px;
             position: relative;  
         }
 
         .average {
-            background-color:rgb(71, 72, 73);
-            width: 9vw;
+            background-color:rgb(53, 53, 53);
             border: 2px solid rgb(168, 168, 168);
             border-radius: 50%;
             display: flex;
@@ -62,8 +67,26 @@
                 font-size: 0.8em; 
                 margin: 0.5em auto;
             }
+
+            .green{
+
+                color:rgb(5, 184, 5);
+                text-shadow:1px 1px 1px  rgba(0,0,0,0.1);
+            }
+            
+            .orange{
+               color:orange ;
+               text-shadow:1px 1px 1px  rgba(0,0,0,0.1);
+            }
+            
+            .tag.red{
+               color:rgb(255, 16, 0.808) ;
+               text-shadow:1px 1px 1px  rgba(0,0,0,0.1);
+            }
           }
 }
+
+
 
 .moreDetails{
     position: absolute;
@@ -86,10 +109,11 @@
 }
 
 .movie:hover{
-    transform: scale(1.25);
+    transform: scale(1.2);
 }
 
 .movie:hover .moreDetails{
     transform: translateY(0%);  
 }
+
 
