@@ -1,11 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.scss';
-import '../../img/multiAmarillo.jpg'
-
-/* const BackgroundAmarillo = () => {
-    document.body.style.backgroundImage = 'url(./img/multiAmarillo.jpg)';
-  }  */
+import Search from '../Search/Search'
 
 
 const Header = props => {
@@ -24,7 +20,10 @@ const Header = props => {
                        <span className='top_rated'>Más votadas</span>
                 </NavLink>
             </div>
-            <input className="search" type='text' placeholder='Buscar...'/>     
+            <div>
+                 <Search className='search'/>
+            </div>
+            {/* <input className="search" type='text' placeholder='Buscar...'/>  */}    
         </header>
     )
 }

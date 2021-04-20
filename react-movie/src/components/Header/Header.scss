@@ -17,7 +17,6 @@ header{
     justify-content:space-between;
     div{
         display: flex;
-        
         height: 3em;
     
     span{
@@ -42,23 +41,7 @@ header{
        
     }
 }
-    input{
-        align-self: center;
-        height: 2.2em;
-        width: 25em;
-        margin-right: 2em;
-        /* appearance: none; */
-        box-sizing: content-box;
-        font-size: 12px;
-        border: 1px solid #666;
-        border-radius: 5px;
-        background:  center no-repeat transparent;
-        padding: 0 6px;
-        color: #ddd;
-        outline: 0;
-        
-    }
-    
+
 }
 
 
