@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Movie from '../Movie/Movie';
-import'../Movie/Movie.scss'
+import ResultSearchMovie from '../ResultSearchMovie/ResultSearchMovie';
+import'../ResultSearchMovie/ResultSearchMovie.scss'
 import './search.scss';
 
 const Search = () => {
@@ -50,7 +50,7 @@ const Search = () => {
                 : null}
             </div>
            <div className="result">
-               {movies?.map(movie=><Movie movie={movie} key={movie.id}/>)}   
+               {movies?.map(movie=><ResultSearchMovie movie={movie} key={movie.id}/>)}   
            </div>   
         </div>
     )

@@ -1,0 +1,109 @@
+.resultMoviesConteiner{
+    .resultMovie{
+        padding: 10px;
+        background-color: rgb(214, 216, 216);
+        box-shadow: rgba(0, 0, 0, 0.548) 10px 14px 5px ;
+        border: 1px solid rgba(0, 0, 0, 0.548);
+        border-radius: 5px;
+        height: 18vh;
+        width: 15vw;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+    
+        ::-webkit-scrollbar {
+            width: 6px;     /* Tamaño del scroll en vertical */
+            height: 4px;    /* Tamaño del scroll en horizontal */
+            /* display: none; */  /* Ocultar scroll */
+            background: rgb(226, 226, 226);
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b3b3b3;
+        }
+
+
+        .movieTitleResult{
+            padding: 5px; 
+            background: rgba(168, 168, 168, 0.5);
+            border-radius: 5px;
+            margin-bottom: 5px;
+            border: 1px solid rgba(139, 139, 139, 0.548) ;
+        }
+        .imgMovieResult{
+            float:left;
+            width: auto;
+            height: auto;
+                img{
+                    width: 3.5vw;
+                    border-radius: 5px;
+                    box-shadow: rgba(0, 0, 0, 0.548) 4px 4px 5px ;
+                }
+        }
+    
+        .averageResult{
+            background-color:rgba(53, 53, 53, 0.548);
+            border: 2px solid rgb(168, 168, 168);
+            border-radius: 50%;
+            margin: 0.5em;
+            height: 2em;
+            width: 2em;
+             p{
+                color: rgb(255, 253, 253);
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+                font-weight: bolder;
+                font-size: 0.8em; 
+                text-align: center;
+                margin: 0.5em auto;
+             }
+    
+             .green{
+                color:rgb(5, 184, 5);
+                text-shadow:1px 1px 1px  rgba(0,0,0,0.1);
+            }
+            
+            .orange{
+               color:orange ;
+               text-shadow:1px 1px 1px  rgba(0,0,0,0.1);
+            }
+            
+            .tag.red{
+               color:rgb(255, 16, 0.808) ;
+               text-shadow:1px 1px 1px  rgba(0,0,0,0.1);
+            }
+        }
+
+        .moreDetailsResult{
+            margin-left: 28%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            word-wrap: break-word; 
+            overflow: auto;
+            max-height: 100%; 
+            
+            span{
+                font-size: 13px;
+            }
+            
+            h4{
+                margin-top: 3px;
+                
+            }
+            p{
+                font-size: 12px; 
+               
+            }
+        }
+
+
+    }
+    
+
+    
+
+}
+
+.resultMovie:hover{
+    transform: scale(1.6);
+    z-index: 1;
+
+}
