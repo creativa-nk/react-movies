@@ -1,12 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.scss';
-import Search from '../Search/Search.jsx'
-import '../../img/multiAmarillo.jpg'
+import Amarillo from '../../img/multiAmarillo.jpg'
 
-/* const BackgroundAmarillo = () => {
-    document.body.style.backgroundImage = 'url(./img/multiAmarillo.jpg)';
-  }  */
+ 
 
 
 const Header = props => {
@@ -18,7 +15,7 @@ const Header = props => {
                 </NavLink>
 
                 <NavLink to='/upcoming'>
-                      <span className='upcoming'>Proximos estrenos</span>
+                      <span className='upcoming' >Proximos estrenos</span>
                 </NavLink>
         
                 <NavLink to='/top_rated'>
