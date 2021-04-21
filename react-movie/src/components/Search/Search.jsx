@@ -29,7 +29,7 @@ const Search = () => {
 
     return (
         <div className='searchConteiner'>
-            <div>
+            <header>
                  <form onSubmit={handleSubmit} >
                       <input className='input' 
                         type='search'
@@ -43,10 +43,10 @@ const Search = () => {
                     type='submit'>
                 </button> */}
                  </form>
-           </div>
+           </header>
            <div>
                 {search
-                ? <h3 className="searchResults">Resultados para: {search}</h3>
+                ? <p className="searchResults">Resultados para: {search}</p>
                 : null}
             </div>
            <div className="result">

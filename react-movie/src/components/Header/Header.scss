@@ -13,7 +13,7 @@ header{
     background: $darkest;
     display:flex;
     flex-direction: row;
-    padding:0 0.8em;
+    /* padding:0 0.8em; */
     justify-content:space-between;
     div{
         display: flex;
@@ -27,7 +27,7 @@ header{
         all:unset;   // para quitar los estilos que vienen por defecto
         
         padding:0.8em; 
-        margin:0 0.9em; 
+        margin:0 1em; 
         background: #1f1f1f;
         cursor: pointer;
         transition:all 0.4s; /* para que el cambio sea suave*/

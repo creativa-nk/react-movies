@@ -10,7 +10,7 @@
    
    
     .searchResults{
-        margin: 0 2.5em ;
+        padding: 1em; 
         text-align: left;
         color:white;
         justify-content: center;
@@ -20,7 +20,7 @@
 
 }
 .input{
-    margin: 2em 4em;
+    margin:1em 2em;
     align-items: center;
     height: 2.2em;
     width: 25em;
@@ -30,7 +30,7 @@
     border: 1px solid #666;
     border-radius: 5px;
     background:  center no-repeat transparent;
-    padding: 0 6px;
+  /*   padding: 0 6px; */
     color: #ddd;
     outline: 0; 
 }
