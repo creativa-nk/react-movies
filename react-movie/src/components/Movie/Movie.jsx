@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Movie/Movie.scss'
+import '../Movie/Movie.scss';
+import PeliculaSinPoster from '../../img/PeliculaSinPoster.jpg'
 
 const setVoteClass = (vote) =>{
     if(vote >= 8){
@@ -22,13 +23,15 @@ const Movie = ({movie}) =>{
             </div>
             
             <div className='imgMovie'>  
-                <img src={IMG_API + movie.poster_path} alt="imagen de la pelicula"/>    
-                    <div className='average'>
-                         <p className={
-                             `tag ${setVoteClass(movie.vote_average)}`
-                             }>
-                                 {movie.vote_average}</p>
-                     </div>
+                <img src={IMG_API + movie.poster_path}
+                  onError={(e)=>{e.target.src = PeliculaSinPoster;}}  alt="imagen de la pelicula"
+                 />
+            <div className='average'>
+                <p className={
+                     `tag ${setVoteClass(movie.vote_average)}`
+                 }>
+                {movie.vote_average}</p>
+            </div>
             </div>
             <div className='moreDetails'>
                             <h3 className='originalTitle'>{movie.original_title}</h3>
@@ -41,6 +44,6 @@ const Movie = ({movie}) =>{
         </div> 
        
 )};
-console.log(Movie)       
+console.log(Movie)     
   
 export default Movie;

@@ -13,13 +13,12 @@ header{
     background: $darkest;
     display:flex;
     flex-direction: row;
-    padding:0 0.8em;
+    /* padding:0 0.8em; */
     justify-content:space-between;
     div{
         display: flex;
-        
         height: 3em;
-    
+    }
     span{
         color:$light;
         align-items: center;
@@ -28,7 +27,7 @@ header{
         all:unset;   // para quitar los estilos que vienen por defecto
         
         padding:0.8em; 
-        margin:0 0.9em; 
+        margin:0 1em; 
         background: #1f1f1f;
         cursor: pointer;
         transition:all 0.4s; /* para que el cambio sea suave*/
@@ -42,24 +41,7 @@ header{
        
     }
 }
-    input{
-        align-self: center;
-        height: 2.2em;
-        width: 25em;
-        margin-right: 2em;
-        /* appearance: none; */
-        box-sizing: content-box;
-        font-size: 12px;
-        border: 1px solid #666;
-        border-radius: 5px;
-        background:  center no-repeat transparent;
-        padding: 0 6px;
-        color: #ddd;
-        outline: 0;
-        
-    }
-    
-}
+
 
 
 
