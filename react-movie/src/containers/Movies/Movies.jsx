@@ -1,6 +1,7 @@
 import React, {useEffect, useState } from 'react';
-import Movie from '../../components/Movie/Movie.jsx'
+import Movie from '../../components/Movie/Movie.jsx';
 import axios from 'axios';
+import TitleMovieType from '../../components/TitleMoveType/TitleMovieType';
 import '../Movies/Movies.scss'
 
 const Movies = (props) =>{
@@ -13,8 +14,14 @@ const Movies = (props) =>{
     }, [movieType]);
 
 
-    return <div className='movies'>
-        {movies?.map(movie=><Movie key={movie.id} movie={movie}/>)}
+    return <div className='contenedor'>
+        <h4 className='titleMovieType'>
+            <TitleMovieType movieType={movieType} />
+        </h4>
+        <div className='movies'>
+            {movies?.map(movie=><Movie key={movie.id} movie={movie}/>)}
+        </div>
+        
     </div> 
 }
 export default Movies;
