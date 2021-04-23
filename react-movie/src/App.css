@@ -3,9 +3,13 @@
     box-sizing: border-box
 }
 
-body{
-    background-image: url('./img/multiAmarillo.jpg');
+html{
+    background-image: url('./img/multiAmarilloD.jpg');
+    min-height: 100%;
+    min-width: 800px;
     background-size: cover;
-    overflow: hidden;
-    z-index: -3;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+   
 }
