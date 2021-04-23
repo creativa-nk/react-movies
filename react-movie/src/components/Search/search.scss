@@ -4,7 +4,6 @@
 }
 
 .searchConteiner{
-    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
    
@@ -25,26 +24,21 @@
     align-items: center;
     height: 2.2em;
     width: 25em;
-    /* appearance: none; */
-     box-sizing: content-box;
+    box-sizing: content-box;
     font-size: 14px;
     border: 1px solid #666;
     border-radius: 5px;
     background:  center no-repeat transparent;
-  /*   padding: 0 6px; */
     color: #ddd;
     outline: 0; 
 }
 
 
 .result{
-    
-   /*  background: rgb(0, 130, 65);  */
     display: grid;
     grid-template-columns: repeat(10,1fr);
     grid-gap: 1rem;
     grid-row-gap: 100px;
-    /* padding: 1em; */
     width: 95%;
     height: 90%;
     transition:all 2s;

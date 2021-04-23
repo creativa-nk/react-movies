@@ -9,6 +9,7 @@ const TituloInicio = props =>{
                 <span>al mundo de cine!</span>
             </div> 
         </div>
+  
     )  
 }
 export default TituloInicio;
