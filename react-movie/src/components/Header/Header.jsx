@@ -12,7 +12,10 @@ import '../../img/multiAmarillo.jpg'
 const Header = props => {
     return(
         <header>
-            <div>
+            <div className='menu'>
+                <NavLink to='/'>
+                     <span className='inicio'>Inicio</span>
+                </NavLink>
                 <NavLink to='/popular'>
                      <span className='populares'>Populares</span>
                 </NavLink>

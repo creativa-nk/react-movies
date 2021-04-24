@@ -14,11 +14,12 @@ function App() {
         <BrowserRouter>
             <Header/>
             <Switch>
+              <Route path='/' component={TituloInicio} exact/>
               <Route path='/:movieType' component={Movies} exact/>
               <Route path='/search/movie' component={Search} />
             </Switch>
         </BrowserRouter>
-        <TituloInicio/>
+        {/* <TituloInicio/> */}
         <Footer/>
     </div>
   );
