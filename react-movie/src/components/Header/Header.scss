@@ -2,7 +2,7 @@
 
 * {
     margin: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 header{
@@ -10,7 +10,7 @@ header{
     display:flex;
     flex-direction: row;
     justify-content:space-between;
-    div{
+    .menu{
         display: flex;
         height: 3em;
     }
