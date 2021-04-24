@@ -6,6 +6,8 @@
 .searchConteiner{
     display: flex;
     flex-direction: column;
+    position: absolute;
+    z-index: 1;
    
    
     .searchResults{
@@ -35,6 +37,7 @@
 
 
 .result{
+  /*   position: absolute; */
     display: grid;
     grid-template-columns: repeat(10,1fr);
     grid-gap: 1rem;

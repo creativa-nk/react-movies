@@ -1,3 +1,7 @@
+.contenedor{
+    position: absolute;
+    z-index: 1;
+}
 .titleMovieType{
     background:rgba(5, 5, 5, 0.527) ;
     padding: 0.6em 1.5em; 
@@ -19,5 +23,6 @@
     width: 95%;
     height: 90%;
     transition:all 2s;
-    margin: 4.5rem auto;  
+    margin: 4.5rem auto;
+    /* z-index: 3; */  
 }
