@@ -21,7 +21,7 @@ header{
         all:unset;   // para quitar los estilos que vienen por defecto
         padding:0.8em; 
         margin:0 1em; 
-        background: #1f1f1f;
+        background: $darkest;
         cursor: pointer;
         transition:all 0.4s; /* para que el cambio sea suave*/
         color:$light;
