@@ -50,7 +50,9 @@ const Search = () => {
                 : null}
             </div>
            <div className="result">
-               {movies?.map(movie=><Movie movie={movie} key={movie.id}/>)}   
+               {movies?.map((movie,index)=>
+               index < 10 &&
+               <Movie movie={movie} key={movie.id}/>)}   
            </div>   
         </div>
     )
