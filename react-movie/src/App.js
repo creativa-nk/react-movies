@@ -19,7 +19,6 @@ function App() {
               <Route path='/search/movie' component={Search} />
             </Switch>
         </BrowserRouter>
-        {/* <TituloInicio/> */}
         <Footer/>
     </div>
   );
