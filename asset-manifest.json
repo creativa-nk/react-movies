@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-movies/static/css/main.0d77f557.chunk.css",
+    "main.js": "/react-movies/static/js/main.29f560ee.chunk.js",
+    "main.js.map": "/react-movies/static/js/main.29f560ee.chunk.js.map",
+    "runtime-main.js": "/react-movies/static/js/runtime-main.d53fedef.js",
+    "runtime-main.js.map": "/react-movies/static/js/runtime-main.d53fedef.js.map",
+    "static/js/2.f7f774c9.chunk.js": "/react-movies/static/js/2.f7f774c9.chunk.js",
+    "static/js/2.f7f774c9.chunk.js.map": "/react-movies/static/js/2.f7f774c9.chunk.js.map",
+    "index.html": "/react-movies/index.html",
+    "static/css/main.0d77f557.chunk.css.map": "/react-movies/static/css/main.0d77f557.chunk.css.map",
+    "static/js/2.f7f774c9.chunk.js.LICENSE.txt": "/react-movies/static/js/2.f7f774c9.chunk.js.LICENSE.txt",
+    "static/media/PeliculaSinPoster.6b8e8929.jpg": "/react-movies/static/media/PeliculaSinPoster.6b8e8929.jpg",
+    "static/media/App.css": "/react-movies/static/media/multiAmarilloD.d7c8348f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d53fedef.js",
+    "static/js/2.f7f774c9.chunk.js",
+    "static/css/main.0d77f557.chunk.css",
+    "static/js/main.29f560ee.chunk.js"
+  ]
+}
