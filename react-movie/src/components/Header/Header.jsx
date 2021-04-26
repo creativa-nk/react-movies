@@ -1,12 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.scss';
-import Search from '../Search/Search.jsx'
-import '../../img/multiAmarillo.jpg'
-
-/* const BackgroundAmarillo = () => {
-    document.body.style.backgroundImage = 'url(./img/multiAmarillo.jpg)';
-  }  */
 
 
 const Header = props => {

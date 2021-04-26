@@ -1,7 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import './Footer.scss';
-import '../../img/multiAmarillo.jpg'
+
 
 const Footer = props => {
     return(

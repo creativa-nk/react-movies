@@ -38,10 +38,6 @@ const Search = () => {
                          onChange={e => setQuery(e.target.value)}
                          value={query}
                          />
-               {/*  <button
-                    id='button' 
-                    type='submit'>
-                </button> */}
                  </form>
            </header>
            <div>
