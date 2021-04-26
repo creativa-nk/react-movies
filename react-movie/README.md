@@ -2,7 +2,8 @@
   
 # React Movie App
 The purpose of React Movie App is able to interact with API endpoints by Themoviedb.
-The project has been created whith React,ReactHooks, JavaScript and Sass. 
+
+The project has been created whith React, ReactHooks, JavaScript and Sass. 
 
 ## Getting started
 -------------------
