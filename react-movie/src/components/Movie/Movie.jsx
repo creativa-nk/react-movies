@@ -36,7 +36,6 @@ const Movie = ({movie}) =>{
             <div className='moreDetails'>
                             <h3 className='originalTitle'>{movie.original_title}</h3>
                             <span>({movie.release_date})</span>                          
-                            <span>{movie.runtime} min</span>
                            <h4> Sinopsis:</h4> <p>{movie.overview}</p>
                             
             </div>
