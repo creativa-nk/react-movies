@@ -1,3 +1,5 @@
+<img src='public/img/readme/inicio.jpg' width='100%'>
+  
 # React Movie App
 The purpose of React Movie App is able to interact with API endpoints by Themoviedb.
 The project has been created whith React,ReactHooks, JavaScript and Sass. 
@@ -21,6 +23,11 @@ Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Description
+<img src='public/img/readme/movieDetalles.jpg' width='100%'>
+
+<img src='public/img/readme/buscar.jpg' width='100%'>
+
+<img src='public/img/readme/movie_detalles.jpg' width='100%'>
 
 
 ## Future Improvements
