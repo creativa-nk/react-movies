@@ -23,11 +23,15 @@ Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Description
+---------------
+Movies list pages whith movie details 
 <img src='public/img/readme/movieDetalles.jpg' width='100%'>
 
+Search and search results with movie details
 <img src='public/img/readme/buscar.jpg' width='100%'>
-
 <img src='public/img/readme/movie_detalles.jpg' width='100%'>
 
 
 ## Future Improvements
+- more movie details
+- movil APP version
