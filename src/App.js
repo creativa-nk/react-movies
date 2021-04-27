@@ -14,6 +14,7 @@ function App() {
         <BrowserRouter>
             <Header/>
             <Switch>
+              <Route path='/react-movies/' component={TituloInicio} exact/>
               <Route path='/' component={TituloInicio} exact/>
               <Route path='/:movieType' component={Movies} exact/>
               <Route path='/search/movie' component={Search} />
