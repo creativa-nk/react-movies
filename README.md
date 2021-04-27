@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Description
 ---------------
-Movies list pages whith movie details 
+Movies list pages with movie details 
 <img src='public/img/readme/movieDetalles.jpg' width='100%'>
 
 Search and search results with movie details
