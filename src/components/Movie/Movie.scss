@@ -91,11 +91,15 @@
             }
           }
      
-
-          
-     @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: 1440px) {      
         .movieTitle{
             font-size: 1em; 
+            height: 5vh;
+        }    
+    }     
+     @media only screen and (max-width: 1024px) {
+        .movieTitle{
+            font-size: 0.8em; 
             height: 5vh;
         }
     }

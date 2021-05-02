@@ -42,14 +42,15 @@
     /* z-index: 3; */  
 
     @media only screen and (max-width: 1440px) {
-        grid-template-columns: repeat(auto-fill, 170px); 
-        grid-row-gap:10px;
+        grid-template-columns: repeat(5, 170px); 
+        grid-row-gap:8px;
+        grid-gap: 3.5rem;
         justify-content: center;
         width: 100%;
-        margin: 0;
+        margin: 2em auto;
      }
 
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: 1024px) {
         grid-template-columns: repeat(auto-fill, 170px); 
         grid-row-gap:10px;
         justify-content: center;
@@ -57,7 +58,7 @@
         margin: 0;
      }
      @media only screen and (max-width: 768px) {
-         grid-template-columns: repeat(auto-fill, 140px);
+         grid-template-columns: repeat(auto-fill, 170px);
          grid-row-gap:10px;
          justify-content: center;
          width: 100%;
