@@ -30,9 +30,8 @@ Movies list pages with movie details
 
 Search and search results with movie details
 <img src='public/img/readme/buscar.jpg' width='100%'>
-<img src='public/img/readme/movie_detalles.jpg' width='100%'>
+<img src='public/img/readme/movie_detalles.jpg' width='100%'
 
-## See how it works on  <a href='https://creativa-nk.github.io/react-movies/'>gitHub pages </a>
 ## Future Improvements
 - more movie details
 - movil APP version
