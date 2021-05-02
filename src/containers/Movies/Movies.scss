@@ -1,6 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+}
+
 .contenedor{
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    width: 100vw;
     position: absolute;
     z-index: 1;
+    
+}
+
+.contenedorMovies{
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.titleMovieType{
+    margin: 0;
 }
 
 
@@ -13,7 +36,49 @@
     padding: 1em;
     width: 95%;
     height: 90%;
-    transition:all 2s;
     margin: 4rem auto;
+    transition:all 2s;
+    
     /* z-index: 3; */  
+
+    @media only screen and (max-width: 1440px) {
+        grid-template-columns: repeat(5, 170px); 
+        grid-row-gap:8px;
+        grid-gap: 3.5rem;
+        justify-content: center;
+        width: 100%;
+        margin: 2em auto;
+     }
+
+    @media only screen and (max-width: 1024px) {
+        grid-template-columns: repeat(auto-fill, 170px); 
+        grid-row-gap:10px;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+     }
+     @media only screen and (max-width: 768px) {
+         grid-template-columns: repeat(auto-fill, 170px);
+         grid-row-gap:10px;
+         justify-content: center;
+         width: 100%;
+         margin: 0;
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+     }
+     @media only screen and (max-width: 450px) {
+        .movies{
+         grid-template-columns: repeat(auto-fill, 150px); 
+         grid-row-gap: 10px;
+         margin: 0;
+         width: 100%;
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         }
+        
+         .contenedorMovies{
+             justify-content: center;
+         }
+         
+    }
 }

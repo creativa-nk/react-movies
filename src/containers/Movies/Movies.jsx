@@ -15,13 +15,15 @@ const Movies = (props) =>{
 
 
     return <div className='contenedor'>
-        <h4 className='titleMovieType'>
-            <TitleMovieType movieType={movieType} />
-        </h4>
-        <div className='movies'>
-            {movies?.map(movie=><Movie key={movie.id} movie={movie}/>)}
-        </div>
+                 <div className='contenedorMovies'>
+                     <h4 className='titleMovieType'>
+                          <TitleMovieType movieType={movieType} />
+                    </h4>
+                    <div className='movies'>
+                         {movies?.map(movie=><Movie key={movie.id} movie={movie}/>)}
+                    </div>
         
-    </div> 
+                </div> 
+            </div>
 }
 export default Movies;

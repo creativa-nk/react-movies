@@ -6,10 +6,27 @@
 html{
     background-image: url('./img/multiAmarilloD.jpg');
     min-height: 100%;
-    min-width: 800px;
-    background-size: cover;
+    /* min-width: 800px; */
+    background-size: auto;
         -moz-background-size: cover;
         -webkit-background-size: cover;
         -o-background-size: cover;
    
+}
+
+
+@media only screen and (max-width: 1023px) {
+    html{
+        
+    }
+}
+@media only screen and (max-width: 768px) {
+    html{
+        
+    }
+}
+@media only screen and (max-width: 450px) {
+    html{
+        background-attachment: fixed;
+    }
 }

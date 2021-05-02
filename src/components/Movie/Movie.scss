@@ -90,6 +90,31 @@
                text-shadow:1px 1px 1px  rgba(0,0,0,0.1);
             }
           }
+     
+    @media only screen and (max-width: 1440px) {      
+        .movieTitle{
+            font-size: 1em; 
+            height: 5vh;
+        }    
+    }     
+     @media only screen and (max-width: 1024px) {
+        .movieTitle{
+            font-size: 0.8em; 
+            height: 5vh;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .movieTitle{
+            font-size: 0.8em; 
+            height: 5.3vh;
+        }
+    }
+    @media only screen and (max-width: 450px) {
+        .movieTitle{
+            font-size: 0.7em; 
+        }
+    }    
+
 }
 
 
