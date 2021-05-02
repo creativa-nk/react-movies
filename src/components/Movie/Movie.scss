@@ -102,6 +102,10 @@
             font-size: 0.8em; 
             height: 5vh;
         }
+
+        img{
+            height: 270px;
+       }
     }
     @media only screen and (max-width: 768px) {
         .movieTitle{
@@ -111,8 +115,14 @@
     }
     @media only screen and (max-width: 450px) {
         .movieTitle{
-            font-size: 0.7em; 
+            font-size: 0.9em; 
+            height: 11vh;
         }
+
+         img{
+             height: 270px;
+        }
+ 
     }    
 
 }
