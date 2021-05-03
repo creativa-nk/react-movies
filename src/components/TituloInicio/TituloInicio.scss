@@ -2,69 +2,90 @@
 
 .contenedorTituloInicio {
   padding: 0;
-  /* background-color: blue; */ 
+ /*  background-color: blue; */
   z-index: -1;
   position:relative;
   height: auto;
   width: 78%;
-  margin:4em 0 0 3em;
-  text-align:center;
+  margin:2em 0 0 3em;
   font-family: 'Pacifico', cursive;
   font-weight:300;
   font-size:5em;
   text-shadow:5px 5px 2px rgba(0, 0, 0, 0.246);
-  overflow:hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 
 }
 
 .word {
- /* background: yellowgreen; */ 
+  /* background: yellowgreen; */
   z-index: 1;
-  width: 25%;
-  display:inline-block;
-  overflow:hidden;
-  white-space:nowrap;
-}
-
-.word:first-of-type {    /* For increasing performance 
-                       ID/Class should've been used. 
-                       For a small demo 
-                       it's okaish for now */
+  width:50vw;
   animation: showup 7s infinite;
 }
 
-.word:last-of-type {
-  width:0px;
-  animation: reveal 7s infinite;
-}
-
-.word:last-of-type span {
+.word2 {
     /* background: red;  */
-    width:55%;
-    animation: slidein 7s infinite;
+    width:70vw;
+    animation: reveal 7s infinite;
 }
 
 @keyframes showup {
-    0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
-}
-
-@keyframes slidein {
-    0% { margin-left:-400px; }
-    20% { margin-left:-850px; }
-    35% { margin-left:80px; }
-    100% { margin-left:0px; }
+  0% {opacity:0;}
+  20% {opacity:1;}
+  50% {opacity:1;}
+  70% {opacity:1;}
+  90% {opacity:1;}
+  100% {opacity:0;}
 }
 
 @keyframes reveal {
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:1100px;}
-    80% {opacity:1;}
-    90% {opacity:1;width:600px;}
-    100% {opacity:0;width:620px;}
+  0% {opacity:0;}
+  20% {opacity:0;}
+  50% {opacity:1;}
+  80% {opacity:1;}
+  100% {opacity:0;}
+  
 }
 
+
+@media only screen and (max-width: 1440px) {      
+   
+}     
+@media only screen and (max-width: 1024px) {
+  .contenedorTituloInicio {
+    margin:1em auto;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .contenedorTituloInicio {
+    margin:0.7em auto;
+  }
+  .word {
+   font-size:1em;
+ }
+  .word2{
+   font-size:1em;
+ }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .contenedorTituloInicio {
+    margin:1.2em auto;
+  }
+
+.word {
+   font-size:0.6em;
+ }
+
+.word2{
  
+  font-size:0.6em;
+ }
+
+}

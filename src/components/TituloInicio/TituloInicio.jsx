@@ -5,7 +5,7 @@ const TituloInicio = props =>{
     return(
         <div className='contenedorTituloInicio'>
              <div className='word'>Escápate,</div> 
-             <div className='word'> 
+             <div className='word2'> 
                 <span>al mundo de cine!</span>
             </div> 
         </div>
