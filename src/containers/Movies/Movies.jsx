@@ -19,11 +19,12 @@ const Movies = (props) =>{
                      <h4 className='titleMovieType'>
                           <TitleMovieType movieType={movieType} />
                     </h4>
+                </div> 
                     <div className='movies'>
                          {movies?.map(movie=><Movie key={movie.id} movie={movie}/>)}
                     </div>
         
-                </div> 
+               
             </div>
 }
 export default Movies;

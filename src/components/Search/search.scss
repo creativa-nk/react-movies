@@ -4,20 +4,21 @@
 }
 
 .searchConteiner{
+    margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: absolute;
     z-index: 1;
-   
    
     .searchResults{
         padding: 0.6em 1.5em; 
         text-align: left;
         color:white;
         justify-content: center;
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-        background:rgba(5, 5, 5, 0.527) ;
+         background:rgba(5, 5, 5, 0.527) ; 
     }
 
 }
@@ -41,10 +42,40 @@
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-gap: 1rem;
-    grid-row-gap: 83px;
+    grid-row-gap: 73px;
+    padding: 1em;
     width: 50%;
     height: 90%;
     transition:all 2s;
-    margin: 1.5rem auto;       
+    margin: 1.5rem auto;        
+}
+
+@media only screen and (max-width: 1024px) {
+    .result{
+     grid-template-columns: repeat(auto-fill, 180px); 
+     grid-row-gap:10px;
+     grid-gap: 3rem;
+     width: 100%;
+     justify-content: center;
+    }
     
+ }
+ @media only screen and (max-width: 768px) {
+    .result{
+      grid-template-columns: repeat(auto-fill, 160px);
+      grid-row-gap:20px;
+      grid-gap: 3rem;
+      width: 100%;
+      justify-content: center;
+     }
+    
+ }
+ @media only screen and (max-width: 450px) {
+    .result{
+     grid-template-columns: repeat(auto-fill, 150px); 
+     grid-row-gap: 10px;
+     width: 100%;
+     justify-content: center;
+     }
+     
 }
