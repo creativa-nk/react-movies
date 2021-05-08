@@ -32,6 +32,7 @@ Search and search results with movie details
 <img src='public/img/readme/buscar.jpg' width='100%'>
 <img src='public/img/readme/movie_detalles.jpg' width='100%'>
 
+##  <a href="https://creativa-nk.github.io/react-movies/ ">how it works </a>
+
 ## Future Improvements
 - more movie details
-- movil APP version
