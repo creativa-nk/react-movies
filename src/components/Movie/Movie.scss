@@ -93,13 +93,13 @@
      
     @media only screen and (max-width: 1440px) {      
         .movieTitle{
-            font-size: 1em; 
+            font-size: 0.8em; 
             height: 5.8vh;
         }    
     }     
      @media only screen and (max-width: 1024px) {
         .movieTitle{
-            font-size: 0.8em; 
+            font-size: 0.7em; 
             height: 5.6vh;
             overflow: hidden;
         }
@@ -110,7 +110,7 @@
     }
     @media only screen and (max-width: 768px) {
         .movieTitle{
-            font-size: 0.8em; 
+            font-size: 0.7em; 
             height: 5.5vh;
         }
 
@@ -120,8 +120,8 @@
     }
     @media only screen and (max-width: 450px) {
         .movieTitle{
-            font-size: 0.8em; 
-            height: 5.3vh;
+            font-size: 0.7em; 
+            height: 5.5vh;
         }
 
           img{
