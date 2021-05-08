@@ -36,4 +36,3 @@ Search and search results with movie details
 
 ## Future Improvements
 - more movie details
-- movil APP version
